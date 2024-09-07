@@ -5,7 +5,7 @@ package("figcone")
 
     add_urls("https://github.com/kamchatka-volcano/figcone.git")
 
-    add_versions("3.1.0", "")
+    add_versions("v3.1.0", "8a668e89d354fd604dc9e7832d99c35ca518436b")
 
     add_configs("use_json", {description = "enable json parsing", default = false, type = "boolean"})
     add_configs("use_yaml", {description = "enable yaml parsing", default = false, type = "boolean"})
